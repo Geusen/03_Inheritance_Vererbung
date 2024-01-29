@@ -4,13 +4,12 @@ public class Tomcat extends SuperCat{
 
 
   public Tomcat(String name, String furColor, int age) {
-    super("Puma", "black", 13);
+    super(name, furColor, age);
   }
 
 
   public String getAge() {
-    return String.valueOf(age);
-    
+    return String.valueOf(age); 
   }
 
 }
